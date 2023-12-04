@@ -12,8 +12,8 @@ def upload_to_s3(df, bucket_name, file_name):
     try:
         # Initialize a session using AWS S3 credentials
         session = boto3.Session(
-            aws_access_key_id='AKIA6FK6C3VFBTCVQN6Q',
-            aws_secret_access_key='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'
+            aws_access_key_id='',
+            aws_secret_access_key=''
         )
 
         # Convert DataFrame to CSV and save to S3
